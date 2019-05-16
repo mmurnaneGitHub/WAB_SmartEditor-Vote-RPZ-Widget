@@ -1,7 +1,7 @@
 # WAB_SmartEditor-Vote-RPZ-Widget
 SmartEditor Widget for RPZ Voting (https://wspdsmap.cityoftacoma.org/website/PW/Vote_RPZ/)
 
-Customization to include a verification code for saving changes.
+Customization requires a verification code for saving changes.
 
 Version 2.12
 
