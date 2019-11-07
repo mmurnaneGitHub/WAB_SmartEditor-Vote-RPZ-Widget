@@ -42,7 +42,6 @@ define([
   };
 
   mo.pointToExtent = function (map, point, toleranceInPixel) {
-    //console.error(toleranceInPixel);  //MJM
     toleranceInPixel = 1;  //MJM - Reset from default of 20.  Too large for selecting parcels (tends to result in many records).
     var pixelWidth = map.extent.getWidth() / map.width;
     var toleranceInMapCoords = toleranceInPixel * pixelWidth;
